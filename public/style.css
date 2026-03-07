@@ -1,5 +1,5 @@
     body {
-      background:url("/images/bgstars.gif");
+      background:url("images/bgstars.gif");
         /* Image for page background. Remember to use relative path. Why does CSS use different comment coding than HTML... */
       margin: 0;
         /* Apparently there's an 8px left margin by default. Wild. */
