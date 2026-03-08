@@ -5,6 +5,7 @@
         /* Apparently there's an 8px left margin by default. Wild. */
       font-family: Verdana;
     }
+
       h1 {
         text-align: center;
         color: #ffffff;
@@ -25,7 +26,7 @@
       }
 
       .tm-cursor {
-        cursor: urk("images/cursors/cursorpinkandblacks.png");
+        cursor: url("images/cursors/cursorpinkandblacks.png"), auto;
       }
 
     .rainbow-box {
@@ -127,6 +128,11 @@
       width: 1750px;
     }
       /* Add extra space on sides? Make size non-relative to window size?*/
+
+    .interests-rows {
+      display: flex;
+      flex-direction: row;
+    }
     
     .centerscreen {
       display: flex;
